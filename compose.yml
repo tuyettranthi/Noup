@@ -1,6 +1,7 @@
 services:
   windows:
     image: dockurr/windows
+    restart: always
     container_name: windows
     environment:
       VERSION: "win11"
