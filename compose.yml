@@ -4,7 +4,7 @@ services:
     restart: always
     container_name: windows
     environment:
-      VERSION: "win10"
+      VERSION: "vista"
     devices:
       - /dev/kvm
     cap_add:
