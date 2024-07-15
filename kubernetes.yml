@@ -1,4 +1,4 @@
-àapiVersion: v1
+Version: v1
 kind: PersistentVolumeClaim
 metadata:
   name: windows-pvc
@@ -31,9 +31,9 @@ spec:
         privileged: true
       env:
         - name: RAM_SIZE
-          value: 8G
+          value: 4G
         - name: CPU_CORES
-          value: "6"
+          value: "4"
         - name: DISK_SIZE
           value: "128G"
       volumeMounts:
