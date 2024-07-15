@@ -36,6 +36,6 @@ VOLUME /storage
 ENV RAM_SIZE "4G"
 ENV CPU_CORES "4"
 ENV DISK_SIZE "128G"
-ENV VERSION "2012"
+ENV VERSION "win11"
 
 ENTRYPOINT ["/usr/bin/tini", "-s", "/run/entry.sh"]
