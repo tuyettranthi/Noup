@@ -4,7 +4,7 @@ services:
     restart: always
     container_name: windows
     environment:
-      VERSION: "2012"
+      VERSION: "win10"
     devices:
       - /dev/kvm
     cap_add:
