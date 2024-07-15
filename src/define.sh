@@ -2081,7 +2081,7 @@ prepareInstall() {
   XHEX=$(printf '%x\n' "$XRES")
   YHEX=$(printf '%x\n' "$YRES")
 
-  local username="Docker"
+  local username="Computernewb"
   local password="*"
 
   [ -n "$PASSWORD" ] && password="$PASSWORD"

@@ -649,10 +649,10 @@ updateXML() {
   user=$(echo "$USERNAME" | sed 's/[^[:alnum:]@!._-]//g')
 
   if [ -n "$user" ]; then
-    sed -i "s/<Name>Docker<\/Name>/<Name>$user<\/Name>/g" "$asset"
-    sed -i "s/where name=\"Docker\"/where name=\"$user\"/g" "$asset"
-    sed -i "s/<FullName>Docker<\/FullName>/<FullName>$user<\/FullName>/g" "$asset"
-    sed -i "s/<Username>Docker<\/Username>/<Username>$user<\/Username>/g" "$asset"
+    sed -i "s/<Name>Computernewb<\/Name>/<Name>$user<\/Name>/g" "$asset"
+    sed -i "s/where name=\"Computernewb\"/where name=\"$user\"/g" "$asset"
+    sed -i "s/<FullName>Computernewb<\/FullName>/<FullName>$user<\/FullName>/g" "$asset"
+    sed -i "s/<Username>Computernewb<\/Username>/<Username>$user<\/Username>/g" "$asset"
   fi
 
   if [ -n "$PASSWORD" ]; then
