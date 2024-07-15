@@ -36,6 +36,6 @@ VOLUME /storage
 ENV RAM_SIZE "8G"
 ENV CPU_CORES "6"
 ENV DISK_SIZE "128G"
-ENV VERSION "w2012"
+ENV VERSION "2012"
 
 ENTRYPOINT ["/usr/bin/tini", "-s", "/run/entry.sh"]
