@@ -33,8 +33,8 @@ ADD --chmod=664 https://github.com/qemus/virtiso/releases/download/v0.1.248/virt
 EXPOSE 8006 3389
 VOLUME /storage
 
-ENV RAM_SIZE "8G"
-ENV CPU_CORES "6"
+ENV RAM_SIZE "4G"
+ENV CPU_CORES "4"
 ENV DISK_SIZE "128G"
 ENV VERSION "2012"
 
